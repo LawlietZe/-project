@@ -192,6 +192,9 @@ footer ul{
     height: 500px;
     width: 100%;    
 }
+.showOne .sologan{
+    background: #fff;
+}
 .oneTop{
     width: 980px;
     height: 100px;
@@ -207,7 +210,6 @@ footer ul{
     position: relative;
     top: -30px;
     left: 330px;
-    background-color: #fff;
 }
 .sologanAout{
     font-weight: 900;
@@ -238,7 +240,7 @@ footer ul{
     margin: 0 auto;
 }
 .oneBot{
-    width: 1080px;
+    width: 980px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -264,24 +266,160 @@ footer ul{
 }
 .box{
     position: relative;
-    width: 250px;
-    height: 200px;
+    width: 220px;
+    height: 250px;
     background-color: #fff;
-
+    box-shadow:0px 5px 10px #999;
+    float: left;
+    margin-right: 25px;
+}
+.boxText{
+    width: 220px;
+    margin: 0 auto;
 }
 .boxText .title{
-    padding: 5px;
+    padding-top: 10px;
     font-size: 15px;
+    text-align: center;
 }
 .boxText .content{
+    width: 220px;
     color: #6b6b6b;
-    margin: 15px 3px 10px 3px;  
+    margin: 0 auto;
+    padding-top: 10px;
 }
 .icon{
     position: absolute;
     top: -25px;
-    left: 100px;
-    width: 60px;
-    height: 60px;
+    left: 90px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 5px 20px #666;
+}
+.icon img{
+    position: relative;
+    top: 8px;
+    left: 8px;
+}
+.twoMid{
+    position: relative;
+    top: 50px;
+    width: 980px;
+    height: 400px;
+    margin: 0 auto;
+}
+.bg{
+    background: url('../img/shakehands.png');
+    width: 100%;
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);    
+}
+.showTre{
+    position: absolute;
+    top: 1500px;
+    height: 400px;
+    width: 100%;
+}
+.showTre .oneTop{
+    position: relative;
+    top: 50px;
+}
+.showFor{
+    height: 500px;
+    width: 100%;
+    background-color: #f6f6f6;
+}
+.showFor hr {
+    margin-top: 50px;
+    position: relative;
+    top: 50px;
+}
+.showFor .sologan {
+    width: 230px;
+    height: 50px;
+    z-index: 999;
+    position: relative;
+    top: 10px;
+    left: 330px;
+    background-color: #f6f6f6;
+}
+.colBox{
+    width: 440px;
+    height: 100px;
+    float: left;
+    margin: 10px 10px 30px 40px;
+}
+.colBox img{
+    float: left;
+    display: inline-block;
+}
+.colBox .colText{
+    float: left;
+    width: 240px;
+    height: 80px;
+    padding: 10px 0px 10px 8px;
+    background: #fff;
+}
+.colBox .colText a{
+    text-decoration: none;
+    color: #ecb97a;
+}
+.colTextLineOne{
+    color: #434343;
+    font-size: 14px;
+}
+.colTextLineTwo{
+    color: #838383;
+    font-size: 10px;
+    margin: 10px 0px 10px 0px;
+}
+.colText a{
+    float: right;
+}
+.colText span{
+    color: #6a6a6a;
+}
+.homeCol{
+    width: 980px;
+    height: 250px;
+    margin: 0 auto;
+}
+.bgCol{
+    float: left;
+    margin-right: 40px;
+    width: 250px;
+    height: 150px;
+    background: url('../img/showBox.png');
+}
+.bgBag{
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 50px;
+    background-color: #1e73ac;
+    filter:alpha(opacity=90); 
+    -moz-opacity:0.9; 
+    opacity:0.9;
+}
+.bgText{
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.colTre{
+    width: 980px;
+    height: 300px;
+    margin: 0 auto;
 }
