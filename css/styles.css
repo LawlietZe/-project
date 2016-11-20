@@ -423,3 +423,54 @@ footer ul{
     height: 300px;
     margin: 0 auto;
 }
+.about{
+    position: relative;
+}
+.sub-menu-1{
+    display: none;
+    padding-left: 0 !important;
+    width: 280px !important;
+    height: 120px !important;
+    position: absolute;
+    top: 90px;
+    left: 380px;
+    background-color: #fff;
+}
+.sub-menu-1 li{
+    color: red !important;
+    float: left;
+    margin-right: -10px;
+    margin-bottom: -20px;
+}
+.sub-menu-2{
+    display: none;
+    padding-left: 0 !important;
+    width: 380px !important;
+    height: 120px !important;
+    position: absolute;
+    top: 90px;
+    left: 480px;
+    background-color: #fff;
+}
+.sub-menu-2 li{
+    color: red !important;
+    float: left;
+    margin-right: -10px;
+    margin-bottom: -20px;
+}
+.treIcon{
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 24px solid #fff;
+    position: absolute;
+    left: 120px;
+    top: -24px;    
+}
+.nav a:hover{
+    color: #198fe1;
+}
+.product{
+    position: relative;
+}
